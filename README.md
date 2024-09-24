@@ -1,6 +1,6 @@
 🟢 🟡 🔴
 
-# Click_to_learn
+# Click_to_learn_7DC
 
 ## Sobre o Projeto :paperclip:
 
@@ -27,3 +27,4 @@ O Click to learn e um desafio da plataforma *07 Days of Code*, que é um desafio
 
 O desenvolvimento deste projeto foi baseado nos conhecimentos adquiridos através dos cursos de HTML e CSS da Alura, com foco em uma experiência mobile first para garantir uma boa adaptação em diferentes tamanhos de tela. É uma excelente oportunidade de praticar e consolidar conceitos fundamentais de responsividade e acessibilidade.
 
+👉 Todo repositorio do meu perfil com a terminação: 7DC - significa que é um repositorio de um desafio da plataforma *07 Days of Code* da Alura.
