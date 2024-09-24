@@ -1,0 +1,37 @@
+/* imports to the components of page */
+@import url(Style_components/header.css);
+
+
+/* import do reset css */
+@import url(Reset_css.css);
+
+/* import to fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+
+/* root of variables */
+:root {
+    --color1: #687f96;
+    --color2: #b0bcc8;
+    --color3: #36424e;
+    --color4: #6c7c94;
+    --color5: #b0bcc8;
+    --white: #ffffff;
+    --black: #00030c;
+    --font_title: "Playwrite DE Grund", cursive;
+    --font_main: "Roboto", sans-serif;
+}
+
+
+body {
+    font-family: var(--font_main);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
