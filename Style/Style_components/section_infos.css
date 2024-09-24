@@ -1,0 +1,57 @@
+/* infos section */
+
+section.infos_main_section {
+    padding: 1em;
+}
+
+div.card_info {
+    padding: 1.6em 0;
+}
+
+div.card_info>h2 {
+    font-weight: 700;
+    color: var(--color1);
+    font-size: 26px;
+}
+
+.card_title {
+    font-weight: 700;
+    margin: 0.7em 0;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    section.infos_main_section {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    div.card_info {
+        width: 40vw;
+    }
+
+    div.card_info>h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    section.infos_main_section {
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    div.card_info {
+        width: 20vw;
+        padding: 0 2em;
+    }
+
+    section.infos_main_section {
+        padding: 1em 1em 5em;
+    }
+
+    .card_title {
+        font-size: 22px;
+    }
+}

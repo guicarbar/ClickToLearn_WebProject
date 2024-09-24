@@ -1,9 +1,12 @@
 /* imports to the components of page */
 @import url(Style_components/header.css);
+@import url(Style_components/section_sobrenos.css);
+@import url(Style_components/section_infos.css);
+@import url(Style_components/section_banner.css);
+@import url(Style_components/section_cursos.css);
+@import url(Style_components/section_colab.css);
+@import url(Style_components/footer.css);
 
-
-/* import do reset css */
-@import url(Reset_css.css);
 
 /* import to fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund&display=swap');
@@ -19,19 +22,27 @@
     --color5: #b0bcc8;
     --white: #ffffff;
     --black: #00030c;
+    --white_creem: #c5c5c5;
     --font_title: "Playwrite DE Grund", cursive;
     --font_main: "Roboto", sans-serif;
-}
-
-
-body {
-    font-family: var(--font_main);
-    font-weight: 400;
-    font-size: 16px;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--font_main);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+body {
+    background-color: var(--white);
+}
+
+
+@media screen and (min-width: 1728px) {
+    * {
+        font-size: 20px;
+    }
 }

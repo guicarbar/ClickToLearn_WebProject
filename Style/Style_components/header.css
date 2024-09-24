@@ -53,10 +53,6 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-    .icon_header {
-        width: 64px;
-    }
-
     .hamburguer_icon {
         display: none;
     }
@@ -70,7 +66,7 @@ nav {
         color: var(--black);
         padding: 0.5em 0.9em;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 18px;
         border-radius: 24px;
         transition: all 0.3s ease;
     }
@@ -88,7 +84,7 @@ nav {
         color: var(--black);
         padding: 0.5em 0.9em;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 18px;
         border-radius: 24px;
         transition: all 0.3s ease;
     }
@@ -103,7 +99,7 @@ nav {
         color: var(--white);
         padding: 0.5em 0.9em;
         font-weight: 700;
-        font-size: 22px;
+        font-size: 18px;
         border: 1px solid var(--color4);
         border-radius: 24px;
         background-color: var(--color4);
@@ -129,6 +125,7 @@ nav {
         display: block;
         font-family: var(--font_title);
         font-weight: 400;
+        font-size: 32px;
     }
 
     .icon_header {

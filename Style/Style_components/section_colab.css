@@ -1,0 +1,64 @@
+/* colab */
+
+section.colab_main_section {
+    margin: 3em 1em 6em;
+    padding: 1em;
+    background-color: var(--white_creem);
+    text-align: center;
+}
+
+
+p.colab_title {
+    color: var(--color3);
+    font-weight: 700;
+    margin-top: 1.5em;
+}
+
+section.colab_main_section>h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 1.5em 0;
+}
+
+section.colab_main_section>h1>span {
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.colab_img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.name_colab {
+    font-weight: 700;
+}
+
+section.colab_main_section>p:last-child {
+    margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .colab_img {
+        width: 10%;
+    }
+
+    section.colab_main_section>h1 {
+        padding: 0 15em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .colab_img {
+        width: 8%;
+    }
+
+    section.colab_main_section>h1 {
+        font-size: 28px;
+    }
+    
+    section.colab_main_section>h1>span {
+        font-size: 28px;
+    }
+}

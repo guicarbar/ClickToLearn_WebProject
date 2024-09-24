@@ -1,0 +1,57 @@
+/* footer */
+
+footer {
+    background-color: var(--color3);
+    padding: 3em 1em;
+    text-align: center;
+}
+
+footer>h1 {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 24px;
+}
+
+footer>p {
+    color: var(--white);
+    margin: 1.6em 0;
+}
+
+.direitos {
+    color: var(--white_creem);
+}
+
+.direitos>p:last-child {
+    margin: 1em 0 3em;
+}
+
+.creator_link {
+    text-decoration: none;
+    color: var(--colo4);
+    font-weight: 700;
+}
+
+form {
+    margin: 2em 0;
+}
+
+form>input::placeholder {
+    font-family: var(--font_main);
+    font-size: 20px;
+}
+
+form>input {
+    padding: 0.6em 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: transparent;
+}
+
+form>button {
+    padding: 0.6em 10px;
+    border-radius: 10px;
+    border: transparent;
+    font-weight: 700;
+    color: var(--black);
+    background-color: var(--color4);
+}

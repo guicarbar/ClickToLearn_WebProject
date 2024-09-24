@@ -10,6 +10,7 @@
     <title>Click to learn</title>
 </head>
 <body>
+<!-- Header -->
     <header>
 <!-- icon to enterprise -->
         <div class="title_box_header">
@@ -17,35 +18,155 @@
             <h1 class="title_header">Click to learn</h1>
         </div>
 
-
 <!-- menu and list -->
         <img src="Style/Svg/Menu_icon.svg" alt="Button menu" onclick="menu()" class="hamburguer_icon">
         <ul class="list_menu_header" id="menu_button">
-            <li><a href="">Home</a></li>
-            <li><a href="">Produtos</a></li>
-            <li><a href="">Recursos</a></li>
-            <li><a href="">Sobre nós</a></li>
-            <li><a href="">Cadastrar</a></li>
-            <li><a href="">Login</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Cadastrar</a></li>
+            <li><a href="#">Login</a></li>
         </ul>
-
 
 <!-- navbar -->
         <nav>
-            <a href="">Home</a>
-            <a href="">Produtos</a>
-            <a href="">Recursos</a>
-            <a href="">Sobre nós</a>
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Recursos</a>
+            <a href="#">Sobre nós</a>
         </nav>
-
 
 <!-- Login and cadastro -->
         <div class="menu_login">
-            <a href="">Login</a>
-            <a href="">Cadastro</a>
+            <a href="#">Login</a>
+            <a href="#">Cadastro</a>
         </div>
     </header>
 
+<!-- Main -->
+    <main>
+<!-- section sobre nos -->
+        <section class="sobre_main_section">
+            <p class="title_main_section">Sobre nós</p>
+            <h1>Porque somos diferentes?</h1>
+            <p>Nós nos concentramos em ensinar novas tecnologias para programadores. Todas as nossas equipes estão focadas em aprimorar nossa forma de ensinar, ajudando você a aprender novas tecnologias para o seu desenvolvimento pessoal.</p>
+        </section>
+
+<!-- section infos -->
+        <section class="infos_main_section">
+            <div class="card_info">
+                <h2>200+</h2>
+                <p class="card_title">Cursos disponíveis</p>
+                <p>Cursos organizados e planejados para aprimorar suas habilidades na sua carreira em tecnologia.</p>
+            </div>
+            
+            <div class="card_info">
+                <h2>80+</h2>
+                <p class="card_title">Instrutores preparados</p>
+                <p>Instrutores altamente qualificados e apaixonados por ensinar.</p>
+            </div>
+            
+            <div class="card_info">
+                <h2>50K</h2>
+                <p class="card_title">Alunos formados</p>
+                <p>Alunos altamente preparados para o mercado de trabalho.</p>
+            </div>
+            
+            <div class="card_info">
+                <h2>150+</h2>
+                <p class="card_title">Empresas parceiras</p>
+                <p>Empresas parceiras que buscam aprimorar e encontrar funcionários qualificados em nossa plataforma.</p>
+            </div>            
+        </section>
+
+<!-- Banner -->
+        <section class="banner_main_section">
+            <div class="banner_descrition">
+                <p class="banner_title">Inscrições abertas</p>
+                <h1>Inscreva-se agora em nossa plataforma!</h1>
+                <p>Plataforma 100% dedicada a cursos online para desenvolvimento de carreira.</p>
+            </div>
+            <img src="Style/img/img_tech.png" alt="Imagem tech" class="banner_img">
+        </section>
+
+<!-- Cursos -->
+        <section class="cursos_main_section">
+            <div class="cursos_description">
+                <p class="cursos_title">Cursos</p>
+                <h1>Confira nossos cursos mais populares!</h1>
+            </div>
+
+<!-- list of popular coursers -->
+            <div class="cursos_list">
+
+<!-- list design -->
+                <ul>
+                    <li class="list_curso_title">Design</li>
+                    <li class="list_item">
+                        <h2>Product Design</h2>
+                        <p>80 Horas</p>
+                    </li>
+                    <li class="list_item">
+                        <h2>UX Design</h2>
+                        <p>64 Horas</p>
+                    </li>
+                </ul>
+
+<!-- list development -->
+                <ul>
+                    <li class="list_curso_title">Desenvolvemento de softwares</li>
+                    <li class="list_item">
+                        <h2>Desenvolvedor Full-Stack</h2>
+                        <p>118 Horas</p>
+                    </li>
+                    <li class="list_item">
+                        <h2>Desenvolvedor Back-end</h2>
+                        <p>96 Horas</p>
+                    </li>
+                    <li class="list_item">
+                        <h2>Desenvolvedor Java</h2>
+                        <p>68 Horas</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+<!-- section colab -->
+        <section class="colab_main_section">
+            <p class="colab_title">Veja o que nossos colaboradores falam sobre nós</p>
+            <h1>
+                "<span class="colab_name_website">Click to learn</span> 
+                se importa com todos seus colaboradores, sempre procurando nos dar todo tipo de auxílio possível."
+            </h1>
+            <img src="Style/img/perfil_colab_img.png" alt="Foto de perfil" class="colab_img">
+            <p class="name_colab">Viviane carvalho</p>
+            <p>Desenvolvedora Front-End</p>
+        </section>
+    </main>
+
+<!-- footer -->
+    <footer>
+        <h1>Acompanhe as novidades</h1>
+        <p>Sejá o primeiro a saber as novidades de cursos e atuzlizações da plataforma!</p>
+
+<!-- Form footer -->
+        <form>
+            <input type="email" placeholder="Seu e-mail">
+            <button>Cadastrar</button>
+        </form>
+
+<!-- Direitos website -->
+        <div class="direitos">
+            <p>© 2022 Click to learn. Todos os direitos reservados.</p>
+            <p>
+                Criado por: 
+                <a href="#" class="creator_link">Guilherme Carvalho</a>
+            </p>
+        </div>
+    </footer>
+
+<!-- script js -->
     <script src="components/header_menu.js"></script>
 </body>
 </html>
