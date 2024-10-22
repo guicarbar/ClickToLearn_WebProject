@@ -1,6 +1,6 @@
 🟢 🟡 🔴
 
-# Click_to_learn_7DC
+# Click_to_learn_WebProject
 
 ## Sobre o Projeto :paperclip:
 
@@ -26,5 +26,6 @@ O Click to learn e um desafio da plataforma *07 Days of Code*, que é um desafio
 ## Comentários :speech_balloon:
 
 O desenvolvimento deste projeto foi baseado nos conhecimentos adquiridos através dos cursos de HTML e CSS da Alura, com foco em uma experiência mobile first para garantir uma boa adaptação em diferentes tamanhos de tela. É uma excelente oportunidade de praticar e consolidar conceitos fundamentais de responsividade e acessibilidade.
+
 
 *Obs:* Projetos com o sufixo *'_WebProjects'* são aplicativos web, projetados para funcionar em navegadores.
